@@ -1,0 +1,20 @@
+What is Spring Boot?
+Spring Boot is a rapid application development platform within the Spring framework that simplifies creating stand-alone, production-grade Spring-based applications. Example the library system that allows manager to manage a library and users to subscribe
+
+Relation between Spring platform and Spring Boot:
+Spring Boot is built on the Spring platform; it leverages Spring's framework and libraries to simplify configuration and deployment. i.e. Spring boot is based on the spring platform.
+
+Relation between Spring platform and Spring framework:
+The Spring framework is the foundation of the Spring platform, which is an umbrella term for all the Spring projects, including Spring Boot, Spring Security etc.. . Frameworks in general are the foundation that is being used by the upper level like Spring Boot, Secutiry etc...
+
+What is Dependency Injection?
+Dependency Injection is a design pattern in which an object receives other objects that it depends on, instead of creating them directly, allowing for decoupled and more manageable code.Like injecting an object as a component in Spring Boot instead of creating it again directly
+
+How is it done in the Spring platform/framework?
+In Spring, objects define their dependencies, and the Spring container injects those dependencies at runtime, typically using annotations.
+
+What is Inversion of Control (IoC)?
+Inversion of Control is a principle where the control of objects is transferred from the program code to a container or framework. i.e. each component is responsible for specific task
+
+How is it related to Spring?
+Spring implements IoC through its container, which manages the lifecycle and configuration of the objects by defining them as beans, results in decoupling the execution of tasks from the program's logic flow.
